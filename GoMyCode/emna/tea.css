@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto";
+}
+body {background-color: rgb(245, 159, 233);}
+
+
+nav{
+    display: inline;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+ li a
+{
+   
+   text-decoration: none;
+   
+} 
+ .rounded
+{    width: 500% ;
+  
+    display: flex;
+    justify-content: space-between;
+} 
+.rounded1 
+{
+    width:  500px;
+    display: inline-block;
+    justify-content: space-between;
+ 
+
+}
+header{
+    font-style: italic;
+    color: rgb(76, 15, 218);
+    justify-content: center;
+    font-size: 30px;
+}
+header h1 {
+    display: flex;
+    justify-content: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
+   }
+
+
+#work h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(163, 110, 163);
+    font-size: 30px;
+}
+#work iframe {
+    display: flex;
+    justify-content: center;
+    margin-left: 400px;
+}
+.rounded {
+   width: 500px;
+   display: inline-block;
+   justify-content: space-between;
+
+}
+
+.rounded1 img {
+    display: flex;
+    justify-items: center;
+
+}
+#about h1 {
+    display: flex;
+    justify-content: center;
+}
+#about h1 {
+    display: flex;
+    justify-content: center;
+}
+#about form {
+    display: flex;
+    justify-content: center;
+    color: rosybrown;
+
+}
+.section-one,.section-two,.section-three{
+    border: 5px solid rgb(250, 131, 220);
+    width 50 px ;
+
+}
+.section-two h2
+{
+
+}
+.section-three h3{
+    color purple ;
+}
